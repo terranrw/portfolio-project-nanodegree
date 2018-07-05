@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (min-width: 50em) {
+  .container {
+    max-width: 60em;
+    margin: 0 auto;
+  }
+  .image-main {
+    /*  Add to a media inquiry later: min-width: 71.25em;*/
+    background-attachment: fixed;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 50em) {
+  .fw-box-one,
+  
+  .fw-box-three {
+    width: 30%;
+  
+  }
+  .fw-box-two{
+    width: 30%; 
+    margin: 0 5%;
+  }
+}
